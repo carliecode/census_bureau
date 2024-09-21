@@ -11,7 +11,7 @@ master_schema =  StructType([
     StructField('is_telephone_interview_acceptable_code',StringType(),True),
     StructField('type_of_interview_code',StringType(),True),
     StructField('family_income_range_code',StringType(),True),
-    StructField('geographical_division_code',StringType(),True),
+    StructField('division_location_code',StringType(),True),
     StructField('race_code',StringType(),True)                 
 ])
 
@@ -19,7 +19,7 @@ master_schema =  StructType([
 
 
 division_location_schema = StructType([
-    StructField('division_location_code',StringType(),False),
+    StructField('div_loc_code',StringType(),False),
     StructField('division_location',StringType(),False)
 ])
 
