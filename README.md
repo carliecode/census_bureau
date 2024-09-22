@@ -67,7 +67,3 @@ The following questions were answered:
 1. Install Apache Spark
 2. Install required Python libraries using pip install -r requirements.txt
 3. Clone this repository
-4. Run the code using spark-submit (link unavailable)
-
-
-
